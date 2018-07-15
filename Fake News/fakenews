@@ -1,0 +1,26 @@
+
+                                      Fake News Detection 
+
+
+MultinomialNB(alpha=1.0, fit_prior=True, class_prior=None):
+
+The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification). The multinomial distribution normally requires integer feature counts. However, in practice, fractional counts such as tf-idf may also work.
+
+acuuracy : 0.893
+
+Passive Aggressive Classifier
+
+The Passive Aggressive (PA) algorithm is perfect for classifying massive streams of data (e.g. Twitter). It's easy to implement and very fast, but does not provide global guarantees like the support-vector machine (SVM).
+
+accuracy : 0.934
+
+LinearSVC classifier
+The LinearSVC classifier outputs a binary class value (either 0 or 1).
+
+accuracy :  0.936
+
+SGDClassifier :
+
+Stochastic gradient descent (often shortened to SGD), also known as incremental gradient descent, is an iterative method for optimizing a differentiable objective function, a stochastic approximation of gradient descent optimization
+
+accuracy :   0.934
